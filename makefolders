@@ -1,0 +1,15 @@
+#!/bin/bash
+# Create custom Nuxt structure
+
+# Create asset subfolders
+mkdir -p assets/images/{logos,backgrounds,icons}
+mkdir -p assets/styles
+mkdir -p assets/fonts
+
+# Create component organization
+mkdir -p components/{ui,layout,features/{home,about,contact}}
+
+# Create other custom folders
+mkdir -p utils
+
+echo "Custom Nuxt project structure created!"
